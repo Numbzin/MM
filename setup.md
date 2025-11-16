@@ -121,6 +121,8 @@ pip install ytmusicapi
 
 ### 5.2. Criar headers_auth.json
 
+> **Recomendação:** Use o navegador **Google Chrome** para capturar os headers do YouTube Music. Outros navegadores podem gerar comandos cURL incompatíveis ou incompletos.
+
 1. Abra o **YouTube Music** no navegador: https://music.youtube.com
 2. Faça login na sua conta
 3. Pressione **F12** para abrir as Ferramentas do Desenvolvedor
