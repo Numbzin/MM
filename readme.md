@@ -68,9 +68,9 @@ pip install -r requirements.txt
 
 ### 4. Configure o YouTube Music
 
-Você tem **duas opções** para autenticar no YouTube Music:
+Veja o passo a passo detalhado em: [Guia de Setup do YouTube Music](./setup.md)
 
-#### **Opção 1: headers_auth.json (Recomendado - Mais Simples)**
+#### **Autenticação: headers_auth.json (Recomendado)**
 
 1. Abra o YouTube Music no navegador e faça login
 2. Abra as **Ferramentas do Desenvolvedor** (F12)
@@ -90,14 +90,6 @@ ytmusicapi browser
 
 8. Quando solicitado, cole o comando cURL que você copiou
 9. O arquivo `headers_auth.json` será criado automaticamente
-
-#### **Opção 2: oauth.json (Alternativa)**
-
-```bash
-ytmusicapi oauth
-```
-
-Siga as instruções que aparecerem no terminal.
 
 ---
 
@@ -219,7 +211,7 @@ Certifique-se de que:
 
 ### Erro: "Nenhum arquivo de autenticação encontrado" (YouTube Music)
 
-Você precisa criar o arquivo `headers_auth.json` ou `oauth.json`. Veja a seção de configuração do YouTube Music.
+Você precisa criar o arquivo `headers_auth.json`. Veja a seção de configuração do YouTube Music.
 
 ### Músicas não encontradas
 
