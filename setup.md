@@ -33,7 +33,7 @@ python3 --version
 ### Opção B: Git clone
 
 ```bash
-git clone git clone https://github.com/Numbzin/MM.git
+git clone https://github.com/Numbzin/MM.git
 cd MM
 ```
 
