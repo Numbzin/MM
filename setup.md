@@ -33,8 +33,8 @@ python3 --version
 ### Opção B: Git clone
 
 ```bash
-git clone seu-repositorio
-cd migrador-playlists
+git clone git clone https://github.com/Numbzin/MM.git
+cd MM
 ```
 
 ---
